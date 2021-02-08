@@ -23,8 +23,8 @@ int main()
 		return 1;
 	}
 	scanf("%f", &usage);
-	USAGE = (usage*100)/100 * 60;
-	USAGE += (usage - (usage*100)/100 ) * 100;
+	USAGE = (usage/100)*100 * 60;
+	USAGE += (usage - (usage/100)*100 ) * 100;
 	USAGE - limit;
 	if (usage > 0)
 	{
