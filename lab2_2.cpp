@@ -3,5 +3,16 @@ int main()
 {
 	char choice;
 	scanf("%c", &choice);
-	return 0;
+	if (choice == 'A')
+	{
+		
+	}
+	else if (choice == 'B')
+	{
+		
+	}
+	else
+	{
+		return 1;
+	}
 }
