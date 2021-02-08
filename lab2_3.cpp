@@ -27,5 +27,9 @@ int main()
 		}
 	}
 	int swap1[3] = {n[m[1]], n[m[2]], n[m[3]]};
+	for (int i = 0; i < 3; i++)
+	{
+		s[i] - 'A'; // turn into number.
+	}
 	return 0;
 }
