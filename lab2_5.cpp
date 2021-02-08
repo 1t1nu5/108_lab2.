@@ -2,7 +2,7 @@
 int main()
 {
 	int day = 1, month, week;
-	scanf("%d", &semaine);
+	scanf("%d", &week);
 	scanf("%d", &month);
 	switch (month)
 	{
@@ -29,10 +29,14 @@ int main()
 	}
 	do
 	{
-		day += 7;
+		day ++;
+		week++;
+		if (week > 7)
+		{
+			week = 1;
+		}
 	}
 	while (day <= month);
-	day -= month;
-	printf("%d", day);
+	printf("%d", week);
 	return 0;
 }
