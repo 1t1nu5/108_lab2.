@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-	int day, month;
-	scanf("%d", &day);
+	int day = 1, month, semaine;
+	scanf("%d", &semaine);
 	scanf("%d", &month);
 	switch (month)
 	{
