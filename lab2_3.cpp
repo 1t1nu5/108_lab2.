@@ -31,5 +31,6 @@ int main()
 	{
 		s[i] -= 'A'; // turn into number.
 	}
+	int swap2[3] = {swap1[s[1]], swap1[s[2]], swap[s[3]]};
 	return 0;
 }
