@@ -24,7 +24,7 @@ int main()
 	scanf("%f", &usage);
 	USAGE = (usage/100)*100 * 60;
 	USAGE += (usage - (usage/100)*100 ) * 100;
-	USAGE - limit;
+	USAGE -= limit;
 	USAGE /= 60;
 	if (USAGE > 0)
 	{
