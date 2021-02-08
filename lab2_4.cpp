@@ -50,7 +50,7 @@ int main()
 		{
 			printf("\\");
 		}
-		if (check == 1);
+		if (check == 1)
 		{
 			printf("(T_T)");
 		}
