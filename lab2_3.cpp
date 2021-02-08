@@ -2,7 +2,7 @@
 #include <string.h>
 int main()
 {
-	int num[3], order;
+	int num[3], order, most[3];
 	for (int i = 0; i < 3; i++)
 	{
 		scanf("%d", &num[i]);
