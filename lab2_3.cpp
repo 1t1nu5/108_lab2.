@@ -8,5 +8,11 @@ int main()
 		scanf("%d", &num[i]);
 	}
 	scanf("%s", _order);
+	int *p = _order;
+	for (int i = 0; i < 3; i++)
+	{
+		order[i] = &p
+		p++;
+	}
 	return 0;
 }
