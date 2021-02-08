@@ -3,8 +3,8 @@
 int main()
 {
 	char choice;
-	float usage, cost = 0;
-	int USAGE, limit, overpay;
+	float usage, USAGE, cost = 0;
+	int limit, overpay;
 	scanf("%c", &choice);
 	if (choice == 'A')
 	{
