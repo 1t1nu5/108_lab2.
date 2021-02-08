@@ -5,7 +5,7 @@ int main()
 	int bday, check;
 	scanf("%c", &name);
 	scanf("%d", &bday);
-	check = (name + bday % 2;
+	check = (name + bday) % 2;
 	if (name < 'J')
 	{
 		
