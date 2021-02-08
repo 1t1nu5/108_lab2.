@@ -10,12 +10,13 @@ int main()
 	{
 		limit = 12000;
 		overpay = 2;
-		cost =
+		cost = 199;
 	}
 	else if (choice == 'B')
 	{
 		limit = 24000;
 		overpay = 3;
+		cost = 299;
 	}
 	else
 	{
