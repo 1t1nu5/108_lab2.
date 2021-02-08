@@ -19,5 +19,5 @@ int main()
 		return 1;
 	}
 	scanf("%f", &usage);
-	
+	USAGE = floor(usage) * 60;
 }
