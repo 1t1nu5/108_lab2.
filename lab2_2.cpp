@@ -8,13 +8,13 @@ int main()
 	if (choice == 'A')
 	{
 		limit = 12000;
-		overpay = 2/60;
+		overpay = 2;
 		cost = 199;
 	}
 	else if (choice == 'B')
 	{
 		limit = 24000;
-		overpay = 3/60;
+		overpay = 3;
 		cost = 299;
 	}
 	else
@@ -25,6 +25,7 @@ int main()
 	USAGE = (usage/100)*100 * 60;
 	USAGE += (usage - (usage/100)*100 ) * 100;
 	USAGE - limit;
+	USAGE /= 60;
 	if (usage > 0)
 	{
 		cost += overpay*USAGE;
