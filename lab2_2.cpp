@@ -25,7 +25,7 @@ int main()
 		}
 		else
 		{
-			
+			printf("%.2f", 199+(U[0]-200)*3+U[1]*0.05);
 		}
 	}
 	else if (promo == 'B')
@@ -36,7 +36,7 @@ int main()
 		}
 		else
 		{
-			
+			printf("%.2f", 299+(U[0]-400)*2+U[1]/30);
 		}
 	}
 	else
