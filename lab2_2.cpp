@@ -30,5 +30,6 @@ int main()
 	{
 		cost += overpay*usage;
 	}
-	printf("%f", cost);
+	int COST = cosr;
+	printf("%d", COST);
 }
