@@ -27,7 +27,7 @@ int main()
 	USAGE - limit;
 	if (usage > 0)
 	{
-		cost += overpay*usage;
+		cost += overpay*USAGE;
 	}
 	int COST = cost;
 	printf("%d", COST);
