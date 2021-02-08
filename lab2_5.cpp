@@ -3,6 +3,10 @@ int main()
 {
 	int day = 1, month, week;
 	scanf("%d", &week);
+	if (week < 0 || week > 7)
+	{
+		return 1;
+	}
 	scanf("%d", &month);
 	switch (month)
 	{
@@ -25,7 +29,7 @@ int main()
 			month = 29;
 			break;
 		default:
-			return 1;
+			return 2;
 	}
 	do
 	{
