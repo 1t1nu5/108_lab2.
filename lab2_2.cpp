@@ -5,5 +5,6 @@ int main()
 	float usage;
 	scanf("%c", &promo);
 	scanf("%f", &usage);
+	int U[2]; // minute, second
 	return 0;
 }
