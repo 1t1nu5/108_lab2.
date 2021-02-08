@@ -17,6 +17,31 @@ int main()
 	{
 		return 1;
 	}
-	printf("%d %d", U[0], U[1]);
+	if (promo == 'A')
+	{
+		if (U[0] < 200 || (U[0] == 200 && U[1] == 0))
+		{
+			printf("199");
+		}
+		else
+		{
+			
+		}
+	}
+	else if (promo == 'B')
+	{
+		if (U[0] < 400 || (U[0] == 400 && U[1] == 0))
+		{
+			printf("299");
+		}
+		else
+		{
+			
+		}
+	}
+	else
+	{
+		return 2;
+	}
 	return 0;
 }
