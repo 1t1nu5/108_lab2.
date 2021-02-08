@@ -1,5 +1,12 @@
 #include <stdio.h>
-void (int add)
+void fi (int add)
+{
+	if (bday % 5 == 0)
+	{
+		add (add);
+	}
+}
+void add (int add)
 {
 	if (add == 0)
 	{
