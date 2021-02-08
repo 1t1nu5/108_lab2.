@@ -43,17 +43,23 @@ int main()
 	most[2] = num[most[2]];
 	switch (order)
 	{
-		'ABC':
+		"ABC":
 			printf("%d %d %D", most[0], most[1], most[2]);
 			break;
-		'ACB':
+		"ACB":
 			printf("%d %d %D", most[0], most[2], most[1]);
 			break;
-		'BAC':
+		"BAC":
 			printf("%d %d %D", most[1], most[0], most[2]);
 			break;
-		'BCA':
+		"BCA":
 			printf("%d %d %D", most[1], most[2], most[0]);
+			break;
+		"CAB":
+			printf("%d %d %D", most[2], most[0], most[1]);
+			break;
+		"CBA":
+			printf("%d %d %D", most[2], most[1], most[0]);
 			break;
 	}
 	return 0;
