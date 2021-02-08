@@ -26,5 +26,6 @@ int main()
 			m[3] = {3, 1, 2};
 		}
 	}
+	int swap1[3] = {n[m[1]], n[m[2]], n[m[3]]};
 	return 0;
 }
