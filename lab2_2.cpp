@@ -26,7 +26,7 @@ int main()
 	USAGE += (usage - (usage/100)*100 ) * 100;
 	USAGE - limit;
 	USAGE /= 60;
-	if (usage > 0)
+	if (USAGE > 0)
 	{
 		cost += overpay*USAGE;
 	}
