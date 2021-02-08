@@ -25,7 +25,7 @@ int main()
 	scanf("%f", &usage);
 	USAGE = floor(usage) * 60;
 	USAGE += (usage - floor(usage) ) * 100;
-	usage -= USAGE;
+	USAGE - limit;
 	if (usage > 0)
 	{
 		cost += overpay*usage;
