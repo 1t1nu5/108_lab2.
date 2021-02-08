@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int day, month, result;
+	int day, month;
 	scanf("%d", &day);
 	scanf("%d", &month);
 	switch (month)
@@ -28,5 +28,10 @@ int main()
 		default:
 			return 1;
 	}
+	do
+	{
+		
+	}
+	while (day <= month);
 	return 0;
 }
