@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int receive;
+	int receive, total;
 	
 	return 0;
 }
