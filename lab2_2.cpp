@@ -2,7 +2,8 @@
 int main()
 {
 	char choice;
-	int usage, limit, cost = 0;
+	float usage;
+	int limit, cost = 0;
 	scanf("%c", &choice);
 	if (choice == 'A')
 	{
@@ -16,4 +17,5 @@ int main()
 	{
 		return 1;
 	}
+	scanf("%f", &usage);
 }
