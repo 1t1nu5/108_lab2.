@@ -3,26 +3,15 @@ int main()
 {
 	char name;
 	int bday, check;
-	fi (int add)
-	{
-		if (bday % 5 == 0)
-		{
-			if (add == 0)
-			{
-				printf("\\");
-			}
-			else
-			{
-				printf("/");
-			}
-		}
-	}
 	scanf("%c", &name);
 	scanf("%d", &bday);
 	check = (name + bday) % 2;
 	if (name < 'J')
 	{
-		fi(0);
+		if (bday % 5 == 0)
+		{
+			printf("\\");
+		}
 		if (check == 1)
 		{
 			printf("(^_^)");
@@ -31,7 +20,48 @@ int main()
 		{
 			printf("{@_@}");
 		}
-		fi(1);
+		if (bday % 5 == 0)
+		{
+			printf("/");
+		}
+	}
+	else if (name < 'S')
+	{
+		if (bday % 5 == 0)
+		{
+			printf("\\");
+		}
+		if (check == 1)
+		{
+			printf("(*o*)");
+		}
+		else
+		{
+			printf("{*v*}");
+		}
+		if (bday % 5 == 0)
+		{
+			printf("/");
+		}
+	}
+	else if (name <= 'Z')
+	{
+		if (bday % 5 == 0)
+		{
+			printf("\\");
+		}
+		if (check == 1);
+		{
+			printf("(T_T)");
+		}
+		else
+		{
+			printf("{x_x}");
+		}
+		if (bday % 5 == 0)
+		{
+			printf("/");
+		}
 	}
 	return 0;
 }
