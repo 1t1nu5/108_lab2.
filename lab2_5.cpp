@@ -26,7 +26,7 @@ int main()
 			month = 30;
 			break;
 		case 2:
-			month = 29;
+			month = 28;
 			break;
 		default:
 			return 2;
