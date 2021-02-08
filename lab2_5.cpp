@@ -15,7 +15,6 @@ int main()
 		case 12:
 			month = 31; // variable reusage
 			break;
-		case 2:
 		case 4:
 		case 6:
 		case 9:
@@ -30,8 +29,10 @@ int main()
 	}
 	do
 	{
-		
+		day += 7;
 	}
 	while (day <= month);
+	day -= month;
+	printf("%d", day);
 	return 0;
 }
