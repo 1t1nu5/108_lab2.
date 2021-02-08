@@ -3,7 +3,7 @@ int main()
 {
 	char choice;
 	float usage;
-	int limit, cost = 0;
+	int USAGE, limit, cost = 0;
 	scanf("%c", &choice);
 	if (choice == 'A')
 	{
@@ -18,4 +18,5 @@ int main()
 		return 1;
 	}
 	scanf("%f", &usage);
+	
 }
