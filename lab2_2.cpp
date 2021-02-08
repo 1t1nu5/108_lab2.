@@ -20,4 +20,5 @@ int main()
 	}
 	scanf("%f", &usage);
 	USAGE = floor(usage) * 60;
+	USAGE += (usage - floor(usage) ) * 100;
 }
