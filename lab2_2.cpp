@@ -4,7 +4,7 @@ int main()
 	char promo;
 	float usage;
 	scanf("%c", &promo);
-	scanf("%f", &usage);
+	scanf(" %f", &usage);
 	int U[3];
 	U[0] = (usage/100)*100;
 	U[1] = (usage-U[0])*100;
